@@ -5,7 +5,7 @@ pipeline {
     maven 'Maven3'
   }
   options {
-    timeout(time: 100, unit: 'SECONDS')
+    timeout(time: 1000, unit: 'SECONDS')
   }
   stages{
     stage("Cleanup Workspace"){
